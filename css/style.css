@@ -21,15 +21,6 @@ body {
     color: var(--black-color);
     background-color: var(--white-color);
 }
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
-
 /* cursor: pointer; */
 h1,
 h2,
