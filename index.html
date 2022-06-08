@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
@@ -20,25 +14,29 @@
   <body>
     <!--Шапка-->
     <header class="header">
-      <nav>
-        <a href="#" lang="en"><span>Web</span>Studio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+      <nav class="main-nav">
+        <a class="logo" href="#" lang="en"><span class="web">Web</span>Studio</a>
+        <ul class="header-list">
+          <li class="li">
+            <a href="./index.html"><span class="studio">Студия</span> </a>
+          </li>
+          <li class="li"><a href="./portfolio.html">Портфолио</a></li>
+          <li class="li"><a href="#">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contact">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-        <li><a href="tel:+380961111111"> +380 961 111 111 </a></li>
+        <li class="li">
+          <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com </a>
+        </li>
+        <li class="li"><a class="tel" href="tel:+380961111111"> +380 961 111 111 </a></li>
       </ul>
     </header>
     <!--Основна частина-->
     <main>
       <!--Замовлення послуги-->
-      <section class="button" style="background-color: #2f303a">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+      <section class="button">
+        <h1 class="h1">Эффективные решения для вашего бизнеса</h1>
+        <button class="main-button">Заказать услугу</button>
       </section>
       <!--Інформація-->
       <section class="info">
