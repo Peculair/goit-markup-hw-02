@@ -1,13 +1,13 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --second-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
   --black-color: #000000;
   --second-black: #212121;
   --backg-color: #2f303a;
   --white-color: #ffffff;
   --blue-color: #2196f3;
   --p-color: #757575;
-  --grey-color: #F5F4FA;
+  --grey-color: #f5f4fa;
 }
 
 body {
@@ -40,7 +40,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 /*header*/
@@ -92,7 +92,6 @@ a {
 
 .main-nav {
   display: flex;
-
 }
 
 .header-list .link:hover,
@@ -127,7 +126,6 @@ a {
   background-color: var(--backg-color);
   width: 1600px;
   margin: 0 auto;
-
 }
 
 .h1 {
@@ -300,9 +298,10 @@ a {
 }
 
 .filter-button:hover {
-  background: #2196F3;
+  background: #2196f3;
   color: var(--white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
