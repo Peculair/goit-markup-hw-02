@@ -55,6 +55,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  font-family: var(--second-font);
 }
 
 .logo {
@@ -139,7 +140,6 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  font-family: var(--main-font);
 }
 
 .main-button {
@@ -173,7 +173,6 @@ a {
 .h3 {
   margin-top: 94px;
   color: var(--second-black);
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -183,7 +182,6 @@ a {
 }
 
 .p {
-  font-family: var(--main-font);
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -196,7 +194,6 @@ a {
 .h2 {
   margin-top: 94px;
   color: var(--second-black);
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -232,7 +229,6 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-black);
-  font-family: var(--main-font);
 }
 
 .job {
@@ -257,7 +253,6 @@ a {
 .footer-list {
   padding-left: 215px;
   margin-bottom: 9px;
-  font-family: var(--main-font);
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -319,7 +314,6 @@ a {
 }
 
 .portfolio-h3 {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
