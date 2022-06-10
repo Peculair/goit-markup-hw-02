@@ -195,7 +195,8 @@ a {
 /*Box photo*/
 .h2 {
   margin-top: 94px;
-  color: var(--second-black) font-family: var(--main-font);
+  color: var(--second-black);
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -280,12 +281,32 @@ a {
 
 /*=========================PORTFOLIO=======================*/
 .button-item {
-  padding-left: 495px;
+  padding-left: 287px;
   display: flex;
   padding-top: 100px;
   padding-bottom: 56px;
 }
 
+.filter-list {
+  margin-right: 8px;
+}
+
+.filter-button {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background: #2196F3;
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/*========================Portfolio content ================*/
 .portfolio-list {
   display: block;
   margin-left: auto;
@@ -294,11 +315,23 @@ a {
   margin: 10px;
   float: left;
   list-style: none;
-  text-align: center;
+  text-align: start;
+}
+
+.portfolio-h3 {
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
+  color: var(--second-black);
+}
+
+.portfolio-p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--p-color);
 }
 
 .footer-footer {
